@@ -8,4 +8,4 @@ if [ ! -f "$FILE" ]; then
 fi
 
 echo "Top 5 Most Active Users:"
-tail -n +2 "$FILE" | cut -d',' -f2 | sort | uniq -c | sort -nr | head -n 5
+grep -E "^[0-9]+," "$FILE" | cut -d',' -f2 | sort | uniq -c | sort -nr | head -n 5
