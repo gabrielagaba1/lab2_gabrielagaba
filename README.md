@@ -1,13 +1,18 @@
-# Twitter Feed & Data Analysis
+# Lab 2 - Data Detective
 
-A collection of Python and Bash tools designed to clean, analyze, and search through messy tweet data (`twitter_dataset.csv`).
+This project is about working with a messy Twitter dataset (`twitter_dataset.csv`). I wrote a Python script to clean and analyze the data, and a Bash script to find the most active users.
 
-## Files Included
-- `data-detective.py` - Core Python script executing the 4 data quests.
-- `feed-analyzer.sh` - Bash utility script finding the top active users.
+## Files
+- `data-detective.py` – handles all 4 data quests (cleaning, searching, counting, etc.)
+- `feed-analyzer.sh` – finds top active users using bash commands
+- `twitter_dataset.csv` – the raw dataset
 
-## How to Run
+## How to run
 
-### 1. Python Data Detective Script
 ```bash
 python3 data-detective.py
+```
+
+```bash
+bash feed-analyzer.sh
+```
